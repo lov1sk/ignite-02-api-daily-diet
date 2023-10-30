@@ -1,0 +1,21 @@
+{
+  "name": "ignite-daily-diet-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "tsx": "^3.14.0"
+  }
+}
