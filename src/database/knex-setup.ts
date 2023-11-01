@@ -1,6 +1,9 @@
 import { knex as setupKnex, Knex } from "knex";
 import { env } from "../env";
 
+/**
+ * Configuração do knex de acordo com a variaveis de ambiente
+ */
 export const config: Knex.Config = {
   client: env.DATABASE_CLIENT === "sqlite" ? "sqlite" : "pg",
   connection:

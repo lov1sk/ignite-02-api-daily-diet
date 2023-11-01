@@ -4,7 +4,12 @@ import { mealsRoutes } from "./routes/meals-routes";
 
 import cookie from "@fastify/cookie";
 
+// Declaração da instancia do fastify
 export const app = fastify();
+
+/**
+ * Registro de rotas e plugins do fastify
+ */
 
 app.register(cookie);
 app.register(userRoutes, {

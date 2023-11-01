@@ -1,5 +1,8 @@
 import { Knex } from "knex";
 
+/**
+ * Tipagem das tabelas do knex
+ */
 declare module "knex/types/tables" {
   export interface Tables {
     // definir aqui o tipo de tabela como um objeto
